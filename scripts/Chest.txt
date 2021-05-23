@@ -1,0 +1,9 @@
+local map = game.Workspace.Map
+local sr = map["Southern Riverlands"]
+local chests = sr.Chests:GetChildren()
+
+for i,v in pairs(chests) do
+	if v:FindFirstChild("Open") == null then
+		game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.Lid.CFrame
+	end
+end

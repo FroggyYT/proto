@@ -1,0 +1,5 @@
+for i,v in pairs(game.Workspace.Flags:GetChildren()) do
+	if v.Part.Decal.Texture == "rbxassetid://2576127188" then
+		game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.Part.CFrame
+	end
+end

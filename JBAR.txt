@@ -1,0 +1,1 @@
+{"enabled":true,"bankRadius2":19,"warnSeconds":1.5,"preferUnsafeEsc":false,"respawnForPlane":true,"jewlAllowCrims":false,"preferLongTP":false}
